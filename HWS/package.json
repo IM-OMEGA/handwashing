@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
